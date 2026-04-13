@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environnements
+.venv*/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Build / logs
+dist/
+build/
+*.log
+
+# Données brutes locales
+data/
+!data/README.md
+
+# Checkpoints/exports lourds (garde ton meilleur modèle si tu veux)
+artifacts/
+!artifacts/eye_state_model.h5
+assets/
+!assets/alarm.wav
+
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.idea/
+.vscode/
